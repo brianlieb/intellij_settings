@@ -1,0 +1,108 @@
+<templateSet group="Java">
+  <template name="uc" value="@SuppressWarnings(&quot;unchecked&quot;)" description="Suppress Uncheck" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
+  <template name="sp" value="ServicePackage&lt;$END$&gt;" description="ServicePackage" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="populateInteger($VAR$, $FUNC$);" description="Populate Integer" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="psh" value="populateShort($VAR$, $FUNC$);" description="Populate Short" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ps" value="populateString($VAR$, $FUNC$);" description="Populate String" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pl" value="populateLong($VAR$, $FUNC$);" description="Populate Long" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pbd" value="populateBigDecimal($VAR$, $FUNC$);" description="Populate BigDecimal" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pd" value="populateDate($VAR$, $FUNC$);" description="Populate Date" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pf" value="populateFlag($VAR$, $FUNC$);" description="Populate Flag" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;consumer&quot;" alwaysStopAt="true" />
+    <variable name="FUNC" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="us" value="unwrapString.apply($VAR$)" description="Unwrap String" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ui" value="unwrapInteger.apply($VAR$)" description="Unwrap Integer" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;integer&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ul" value="unwrapLong.apply($VAR$)" description="Unwrap Long" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;long&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ubd" value="unwrapLong.apply($VAR$)" description="Unwrap BigDecimal" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;bigdecimal&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="uf" value="unwrapFlag.apply($VAR$)" description="Unwrap Falg" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;flag&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ud" value="unwrapDate.apply($VAR$)" description="Unwrap Date" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;date&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ush" value="unwrapShort.apply($VAR$)" description="Unwrap Short" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="&quot;short&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

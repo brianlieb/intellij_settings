@@ -1,0 +1,5 @@
+<application>
+  <component name="TerminalOptionsProvider">
+    <option name="myShellPath" value="&quot;E:\cygwin\bin\bash.exe&quot; --rcfile ~/.bash_profile" />
+  </component>
+</application>

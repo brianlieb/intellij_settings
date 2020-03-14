@@ -1,0 +1,26 @@
+<templateSet group="user">
+  <template name="aup" value="@AuthProvider NmfsUser.User user," description="AuthProvider" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pi" value="@PackInto(&quot;$PI$&quot;)" description="PackInto" toReformat="false" toShortenFQNames="true">
+    <variable name="PI" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="upf" value="@UnpackFrom(&quot;$PI$&quot;) $TYPE$ $VAR$" description="Unpack From" toReformat="false" toShortenFQNames="false" useStaticImport="true">
+    <variable name="PI" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="sor" value="ServicePackage::ofReply" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,89 @@
+<templateSet group="other">
+  <template name="doc" value="/**&#10; * $DESCRIPTION$&#10; * &lt;br&gt;&lt;br&gt;&#10; * &lt;b&gt;Inputs:&lt;/b&gt;&lt;br&gt;&#10; * &lt;ul&gt;&#10; *      &lt;li&gt;$INPUT$&lt;/li&gt;&#10; * &lt;/ul&gt;&lt;br&gt;&#10; * &lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&#10; * &lt;ul&gt;&lt;li&gt;$OUTPUT$&lt;/li&gt;&lt;/ul&gt;&#10; */" description="Generates a very basic templates to use for Function Javadoc" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="&quot;Functions description&quot;" alwaysStopAt="true" />
+    <variable name="INPUT" expression="" defaultValue="&quot;Describe the parameters&quot;" alwaysStopAt="true" />
+    <variable name="OUTPUT" expression="" defaultValue="&quot;Enter the returned value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="bdml" value="An instance of {@link BatchDataManager}&lt;br&gt;" description="Batch DataManager" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="cr" value="CatchReportVo" description="CatchReportVo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="crl" value="{@link CatchReportVo}" description="Catch Report Vo Javadoc link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="crs" value="CatchReportSpeciesVo" description="CatchReportSpeciesVo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="crsl" value="{@link CatchReportSpeciesVo}" description="Catch Report Species Vo Link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="bdm" value="BatchDataManager" description="BatchDataManager" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cop" value="{@code Optional&lt;$cursor$&gt;}" description="A Code Annotated Optional in Javadoc" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="cpred" value="{@code Predicate&lt;$cursor$&gt;}" description="A Code annotated Predictae for javadoc" toReformat="false" toShortenFQNames="true">
+    <variable name="cursor" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="mp" value="ManagementProgramVo" description="ManagementProgramVo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mpl" value="{@link ManagementProgramVo}" description="Management Program Vo Link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="mpg" value="ManagementProgramGroupVo" description="ManagementProgramGroupVo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="mpgl" value="{@link ManagementProgramGroupVo} " description="Management Program Group Link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="ves" value="VesselVo" description="VesselVo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="vesl" value="{@link VesselVo}" description="VesselVo Link" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+    </context>
+  </template>
+  <template name="log" value="Logger log = LoggerFactory.getLogger($CLZZ$.class);" description="Add SLF4J logger to the class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLZZ" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

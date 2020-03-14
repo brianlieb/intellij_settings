@@ -1,0 +1,22 @@
+<templateSet group="Groovy">
+  <template name="rac" value="@AfterClass&#10;static void runAfterClass(){&#10;    CasBaseTest.runAfterClass()&#10;}" description="Run After Class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rat" value="@After&#10;void runAfterTest(){&#10;    super.runAfterTest()&#10;}" description="Run After Test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rbc" value="@BeforeClass&#10;static void runBeforeClass(){&#10;    CasBaseTest.runBeforeClass()&#10;}" description="Run Before Class" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+  <template name="rbt" value="@Before&#10;void runBeforeTest(){&#10;    super.runBeforeTest()&#10;}" description="Run Before Test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+    </context>
+  </template>
+</templateSet>
