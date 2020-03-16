@@ -9,15 +9,23 @@
     <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
     <EXCLUDED_PACKAGE NAME="java.util.function.Supplier" />
   </component>
+  <component name="DefaultFont">
+    <option name="FONT_SIZE" value="12" />
+    <option name="FONT_FAMILY" value="Iosevka" />
+    <option name="LINE_SPACING" value="1.0" />
+    <option name="USE_LIGATURES" value="true" />
+  </component>
+  <component name="EditorSettings">
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
+  </component>
   <component name="JavaCodeFoldingSettings">
     <option name="collapseAccessors" value="true" />
     <option name="collapseConstructorGenericParameters" value="false" />
     <option name="collapseI18nMessages" value="false" />
     <option name="collapseLambdas" value="false" />
     <option name="collapseOneLineMethods" value="false" />
-  </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
   <component name="XmlFoldingSettings">
     <option name="COLLAPSE_XML_TAGS" value="true" />
