@@ -5,19 +5,19 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.*" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.html</mask>
     <mask>*.as</mask>
     <mask>!*.log</mask>
     <mask>pom.xml</mask>
     <mask>*.properties</mask>
     <mask>*.groovy</mask>
-    <mask>*.xml</mask>
     <mask>*.mxml</mask>
     <mask>*.java</mask>
     <mask>*.css</mask>
     <mask>*.jsp</mask>
     <mask>*.js</mask>
     <mask>*.*</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
