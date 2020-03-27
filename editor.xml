@@ -10,7 +10,7 @@
     <EXCLUDED_PACKAGE NAME="java.util.function.Supplier" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="12" />
+    <option name="FONT_SIZE" value="16" />
     <option name="FONT_FAMILY" value="Iosevka" />
     <option name="LINE_SPACING" value="1.0" />
     <option name="USE_LIGATURES" value="true" />
