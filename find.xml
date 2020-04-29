@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
+    <option name="customScope" value="File '...\util\src\main\java\gov\noaa\alaskafisheries\common\util\CollectionBuilder.java [util]'" />
+    <option name="defaultScopeName" value="File '...\util\src\main\java\gov\noaa\alaskafisheries\common\util\CollectionBuilder.java [util]'" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="SEARCH_SCOPE" value="File '...\util\src\main\java\gov\noaa\alaskafisheries\common\util\CollectionBuilder.java [util]'" />
     <option name="FILE_MASK" value="*.java" />
     <mask>*.html</mask>
     <mask>*.as</mask>
