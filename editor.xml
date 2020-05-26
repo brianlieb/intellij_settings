@@ -7,7 +7,6 @@
     <option name="JAVADOC_INFO_DELAY" value="200" />
     <option name="SMART_BACKSPACE" value="2" />
     <option name="REFORMAT_BLOCK_ON_RBRACE" value="false" />
-    <EXCLUDED_PACKAGE NAME="java.util.function.Supplier" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="12" />
