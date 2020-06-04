@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="daos" />
-    <option name="defaultScopeName" value="daos" />
+    <option name="customScope" value="DAO Unused Methods" />
+    <option name="defaultScopeName" value="DAO Unused Methods" />
     <option name="localCaseSensitive" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="daos" />
+    <option name="SEARCH_SCOPE" value="DAO Unused Methods" />
     <option name="FILE_MASK" value="*.java" />
     <mask>*.html</mask>
     <mask>*.as</mask>
