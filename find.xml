@@ -16,10 +16,10 @@
     <mask>*.javad</mask>
     <mask>*.sh</mask>
     <mask>pom.xml</mask>
-    <mask>*.mxml</mask>
     <mask>*.properties</mask>
     <mask>*.groovy</mask>
     <mask>*.*</mask>
+    <mask>*.mxml</mask>
     <mask>*.java</mask>
   </component>
 </application>
