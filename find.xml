@@ -21,9 +21,9 @@
     <mask>*.graphql</mask>
     <mask>*.groovy</mask>
     <mask>*.yml</mask>
-    <mask>*.java</mask>
     <mask>*.mxml</mask>
     <mask>*.js</mask>
+    <mask>*.java</mask>
     <mask>*.*</mask>
   </component>
 </application>
