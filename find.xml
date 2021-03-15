@@ -5,7 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.java" />
+    <option name="FILE_MASK" value="*.mxml" />
     <mask>*.html</mask>
     <mask>*.as</mask>
     <mask>!*.log</mask>
@@ -17,11 +17,11 @@
     <mask>*.graphql</mask>
     <mask>*.groovy</mask>
     <mask>*.yml</mask>
-    <mask>*.mxml</mask>
     <mask>*.js</mask>
     <mask>*.*</mask>
     <mask>*.xml</mask>
     <mask>pom.xml</mask>
     <mask>*.java</mask>
+    <mask>*.mxml</mask>
   </component>
 </application>
