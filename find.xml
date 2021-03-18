@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="pom.xml" />
+    <option name="FILE_MASK" value="*.groovy" />
     <mask>*.html</mask>
     <mask>*.as</mask>
     <mask>!*.log</mask>
@@ -13,7 +13,6 @@
     <mask>*.sh</mask>
     <mask>*.properties</mask>
     <mask>*.graphql</mask>
-    <mask>*.groovy</mask>
     <mask>*.yml</mask>
     <mask>*.js</mask>
     <mask>*.*</mask>
@@ -21,5 +20,6 @@
     <mask>*.mxml</mask>
     <mask>*.java</mask>
     <mask>pom.xml</mask>
+    <mask>*.groovy</mask>
   </component>
 </application>
