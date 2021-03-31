@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.html</mask>
     <mask>*.as</mask>
     <mask>!*.log</mask>
@@ -15,11 +15,11 @@
     <mask>*.graphql</mask>
     <mask>*.yml</mask>
     <mask>*.xml</mask>
-    <mask>*.mxml</mask>
     <mask>*.groovy</mask>
     <mask>pom.xml</mask>
-    <mask>*.java</mask>
     <mask>*.*</mask>
     <mask>*.js</mask>
+    <mask>*.mxml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
