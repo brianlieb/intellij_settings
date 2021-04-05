@@ -1,5 +1,6 @@
 <application>
   <component name="IntentionManagerSettings">
     <ignoreAction name="Groovy/Declaration/Groovy Introduce local variable" />
+    <ignoreAction name="Java/Declaration/Split declaration" />
   </component>
 </application>
