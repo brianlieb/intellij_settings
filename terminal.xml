@@ -1,5 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
     <option name="myShellPath" value="&quot;C:\cygwin\bin\bash.exe&quot; --rcfile ~/.bash_profile" />
+    <option name="myTabName" value="Local" />
   </component>
 </application>
